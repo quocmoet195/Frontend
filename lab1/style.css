@@ -1,6 +1,7 @@
 /* Lab 2 */
 body {
     background-color: rgb(189, 237, 237);
+    background:rgb(189, 237, 237) 
 }
 
 h1, h2, h3, p, ul, ol, a {
@@ -13,14 +14,29 @@ h1, h2, h3, p, ul, ol, a {
 
 .content{
     display: flex;
+    margin: 30px;
 }
 
 .content-left{
     max-width: 60%;
-    margin: 0 30px;
 
 }
 
 .content-right{
     max-width:40%;
+}
+
+.content-left, .content-right{
+    background: blanchedalmond;
+    margin: 20px 50px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.content-right img{
+    width:300px;
+    height:300px;
+    border: 5px solid rgb(61, 60, 144);
+    border-radius: 50% ;
+
 }
