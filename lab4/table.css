@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(189, 237, 237);
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.header a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    border-color: bisque;
+    border: 1px dashed black;
+    padding: 4px 6px;
+    background-color: antiquewhite;
+
+}
+
+
+caption {
+    font-size: 20px;
+    align-items: center;
+    padding: auto;
+}
+
+.header-table,
+.text-table {
+    height: 30px;
+    font-size: 18px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 3px 7px;
+    align-items: center;
+    justify-items: center;
+}
+
+tr {
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(54, 110, 19, 0.4);
+}
+
+th:nth-child(even),
+td:nth-child(even) {
+    background-color: rgba(202, 212, 150, 0.4);
+}
