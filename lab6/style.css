@@ -1,0 +1,22 @@
+body{
+    margin: 0 20px;
+}
+
+.my-4{
+    background: linear-gradient(to bottom, #33ccff 0%, #7a6c73 100%);
+}
+
+.carousel-item img {
+    height: 300px; 
+    width: auto;
+    object-fit: contain;
+}
+
+
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    color:black;
+    border-radius: 50%;
+    background-color: blue;
+    padding: 2px;
+}

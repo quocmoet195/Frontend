@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Информация о актёре</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#sidebar" data-bs-offset="70" tabindex="0">
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Киноактёр</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="info.html">Информация</a></li>
+                    <li class="nav-item"><a class="nav-link" href="films.html">Фильмы</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="scrollspy">
+    <!-- Боковое меню -->
+    <div class="scrollspy row">
+        <nav id="sidebar" class="col-md-3 d-md-block bg-light sidebar position-sticky">
+            <ul class="nav flex-column">
+                <li class="nav-item"><a class="nav-link" href="#carousel">Карусель</a></li>
+                <li class="nav-item"><a class="nav-link" href="#films">Фильмы</a></li>
+                <li class="nav-item"><a class="nav-link" href="#bio">Краткая информация</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Основной контент -->
+    <!-- Карусель -->
+        <section id="carousel" class="carousel my-4">
+            <div id="actorCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="image/actor1.webp" height="400px" class="d-block w-100" alt="Фото актёра 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image/actor2.webp" class="d-block w-100" alt="Фото актёра 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image/actor3.webp" class="d-block w-100" alt="Фото актёра 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image/actor4.webp" class="d-block w-100" alt="Фото актёра 3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#actorCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#actorCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+            </div>
+        </section>
+
+        <!-- Карточки с фильмами -->
+        <section id="films" class="my-4">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="image/film1.webp" height="300px" class="card-img-top" alt="Постер фильма">
+                        <div class="card-body">
+                            <h5 class="card-title">«Гладиатор 2»</h5>
+                            <p class="card-text">
+                                В мировой прокат наконец выходит блокбастер Ридли Скотта — без Рассела Кроу, но с
+                                его
+                                наследниками, эпическими сражениями, боевыми и ручными обезьянами, отрубленными
+                                конечностями
+                                и непревзойденным Дензелом Вашингтоном. Из Колизея — Станислав Зельвенский.</p>
+                            <a href="https://www.kinopoisk.ru/media/article/4010305/?from_block=editorial_choice"
+                                class="btn btn-primary" target="_blank">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="image/film2.webp" height="300px" class="card-img-top" alt="Постер фильма">
+                        <div class="card-body">
+                            <h5 class="card-title">Субстанция (2024)</h5>
+                            <p class="card-text">Слава голливудской звезды Элизабет Спаркл осталась в прошлом, хотя
+                                она всё
+                                ещё ведёт фитнес-шоу на телевидении. Когда её передачу собираются перезапустить с
+                                ведущей
+                                помоложе, от отчаяния Элизабет решает принять инновационный препарат, создатели
+                                которого
+                                обещают невероятное преображение, но при соблюдении правила одной недели. Так на
+                                свет
+                                появляется молодая красотка Сью. Девушка начинает делать карьеру в шоу-бизнесе и
+                                вскоре
+                                решает, что семи дней ей маловато.</p>
+                            <a href="https://www.kinopoisk.ru/film/4860213/" class="btn btn-primary"
+                                target="_blank">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="image/film3.webp" height="300px" class="card-img-top" alt="Постер фильма">
+                        <div class="card-body">
+                            <h5 class="card-title">Манюня: Приключения в деревне</h5>
+                            <p class="card-text">Манюня, Наринэ и Каринка в сопровождении Ба отправляются на летние
+                                каникулы
+                                в настоящую русскую деревню к бабушке Насте. Сначала они очень увлечены непривычной
+                                атмосферой нового места, но достаточно быстро начинают скучать. Решив ускорить время
+                                до
+                                отъезда домой, девочки по наводке местных мальчишек обращаются к бабке-колдунье,
+                                которая
+                                якобы исполняет любые желания. Она соглашается помочь, но ставит свои условия.
+                                Исполняя
+                                поручения колдуньи, девочки попадают в удивительные приключения, напоминающие сюжеты
+                                русских
+                                народных сказок.</p>
+                            <a href="https://www.kinopoisk.ru/film/5508669/?utm_referrer=www.google.com"
+                                class="btn btn-primary" target="_blank">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="image/film4.webp" height="300px" class="card-img-top" alt="Постер фильма">
+                        <div class="card-body">
+                            <h5 class="card-title">Любовь Советского Союза</h5>
+                            <p class="card-text">История о поколении смелых и красивых, не заставших разрушений
+                                революции и
+                                хаоса гражданской войны, мечтавших построить новую жизнь, в которой не будет места
+                                смерти, а
+                                только невероятной любви, открывающей им путь к великим достижениям и открытиям. О
+                                подвигах
+                                и славе, предательстве и верности тех, кто был героями в небе и на земле, о времени
+                                безмерных испытаний, которые выпали на их недолгие, но яркие жизни. О женщине,
+                                которая была
+                                мечтой и настоящей любовью Советского Союза.</p>
+                            <a href="https://www.kinopoisk.ru/film/5047469/" class="btn btn-primary"
+                                target="_blank">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Краткая информация -->
+        <section id="bio" class="my-4">
+            <h2>Краткая информация</h2>
+            <p>
+                <a class="btn btn-secondary" data-bs-toggle="collapse" href="#actorBio" role="button"
+                    aria-expanded="false" aria-controls="actorBio">
+                    Показать/Скрыть
+                </a>
+            </p>
+            <div class="collapse" id="actorBio">
+                <div>
+                    <h3>Пол Мескал</h3>
+                    <p>Место рождения: Мейнут, Ирландия</p>
+                    <p>Жанры: драма, триллер, мелодрама.</p>
+                    <p>Личная жизнь: ...</p>
+
+                </div>
+                <div>
+                    <h3>Деми Мур</h3>
+                    <p>Место рождения: Розуэлл, Нью-Мексико, США</p>
+                    <p>Жанры: драма, комедия, мелодрама</p>
+                    <p>Личная жизнь: <i>Выросла в «неблагополучной» семье, мать с отчимом были алкоголиками, часто
+                            меняли место жительства.<br>
+                            В 16 лет бросила школу, чтобы работать в модельном агентстве. По наущению соседки,
+                            молодой актрисы Настасьи Кински, тоже решила сниматься в кино.</i></p>
+
+                </div>
+                <div>
+                    <h3>Екатерина Темнова</h3>
+                    <p>Место рождения:Москва, Россия</p>
+                    <p>Жанры: комедия, приключения, детектив</p>
+                    <p>Личная жизнь: ...</p>
+
+                </div>
+                <div>
+                    <h3> Ангелина Стречина</h3>
+                    <p>Место рождения:Стрежевой, Россия</p>
+                    <p>Жанры: драма, мелодрама, комедия</p>
+                    <p>Личная жизнь: <i>Окончила балетную школу.<br>
+                            Окончила музыкальную школу по классу фортепиано.<br>
+                            Окончила ВТУ им. Щепкина.</i></p>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
